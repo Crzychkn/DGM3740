@@ -1,0 +1,7 @@
+//Mixins
+
+//Body Font
+@mixin font-body {
+	font-family: $font-stack;
+	font-weight: 200 + 200;
+}

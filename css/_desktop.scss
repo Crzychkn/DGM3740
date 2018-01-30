@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1141px) {
+/*-----BODY -----*/
+	body {}
+
+/*-----WRAPPER -----*/
+	#wrapper {}
+
+/*-----CONTAINER -----*/
+
+/*-----HEADER -----*/
+header {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+div.search {
+	position: static;
+	float: right;
+	margin: .5em 2% 0 0;
+}
+
+
+
+/*-----NAVigation -----*/
+nav {
+	margin: 0 auto;
+}
+
+
+/*-----CONTENT -----*/
+#contentWrapper {
+	background-image:url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#content {
+	max-width: 1140px;
+	margin: 0 auto;
+	border-right: 1px solid #877550;
+	border-left: 1px solid #877550;
+}
+
+#content article figure img {
+	width: 100%;
+	margin: 0;
+}
+
+#content article figure figcaption {
+	width: 100%;
+	padding: .4em 0;
+}
+
+div.column {
+	width: 50%;
+	float: left;
+	clear: none;
+}
+
+div.row {
+	clear: both;
+}
+
+article {
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 42%;
+}
+
+/*----- FOOTER -----*/
+
+}

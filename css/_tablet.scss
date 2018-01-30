@@ -1,0 +1,87 @@
+@media only screen and (min-width: 600px) {
+/*-----BODY -----*/
+	body {}
+
+
+
+/*-----CONTAINER -----*/
+	#container {}
+
+
+
+/*-----HEADER -----*/
+
+
+
+
+/*-----NAVigation -----*/
+#navWrapper {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b9e00+0,6b6b00+100 */
+		background: rgb(155,158,0); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(155,158,0,1) 0%, rgba(107,107,0,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(155,158,0,1) 0%,rgba(107,107,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(155,158,0,1) 0%,rgba(107,107,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9e00', endColorstr='#6b6b00',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul {
+	margin-left: 2%;
+}
+
+nav ul li {
+	float: left;
+	border-right: solid 1px rgba(0,0,0,0.5);
+	border-left: solid 1px rgba(255,255,255,0.5);
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(255,255,255,0.9);
+	font-size: .8em;
+	padding: 1.2em .9em;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: rgba(0,0,0,0.8);
+}
+
+nav ul li ul {
+	z-index: 99;
+	position: absolute;
+	background-color: #636500;
+	left: -999em;
+	width: 10em;
+}
+
+nav ul li ul li {
+	float: none;
+	border-right: none;
+	border-bottom: solid 1px rgba(0,0,0,0.5);
+}
+
+nav li:hover ul {
+	left: auto;
+	margin-left: 0;
+}
+
+nav li.current {
+	background-color: red;
+}
+/*-----CONTENT -----*/
+div.column {
+	clear: both;
+}
+
+article { 
+	width: 46%;
+	float: left;
+}
+	
+
+
+
+/*----- FOOTER -----*/
+
+	
+}
