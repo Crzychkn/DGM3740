@@ -26,6 +26,18 @@ nav {
 	margin: 0 auto;
 }
 
+.menutext {
+   display: none;
+}
+
+.active {
+   color: black;
+   background: rgba(0, 0, 0, 0);
+}
+
+.sociallinks {
+   font-size: 20px;
+}
 
 /*-----CONTENT -----*/
 #contentWrapper {

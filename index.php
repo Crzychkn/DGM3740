@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 <script>
 		$(document).ready(function(){
@@ -36,6 +37,9 @@
 					<div class="search">
 							<form>
 									<input type="text" name="search" value="search...">
+                           <i class="fab fa-facebook-f sociallinks"></i>
+                           <i class="fab fa-twitter sociallinks"></i>
+                           <i class="fab fa-instagram sociallinks"></i>
 							</form>
 					</div>
 					<img src="images/logo.png" alt="logo">
@@ -54,7 +58,8 @@
 	<div id="navWrapper">
     <nav>
     <ul class="primary-nav clearfix">
-    	<li class="parent"><a href="#">Politics</a>
+       <p class="menutext">Menu</p>
+    	<li class="parent"><a href="#" class="active">Politics</a>
 				<ul>
 						<li><a href="#">Republican</a></li>
 						<li><a href="#">Democrat</a></li>
@@ -216,7 +221,7 @@
 
 	<div id="footerWrapper">
     <footer>
-    <p>&copy; Arthur Schoenfeld &bull; </p>
+       <p>&copy; 2018 Journal Times &bull; <a class="adminlink" href="#">Admin Login</a> </p>
     </footer>
     
 	</div> <!-- end footer wrapper -->
