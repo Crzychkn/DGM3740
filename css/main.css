@@ -215,6 +215,10 @@ footer {
   .sociallinks {
     font-size: 20px; }
 
+  .active {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.8); }
+
   nav ul {
     margin-left: 2%; }
 

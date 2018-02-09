@@ -59,7 +59,7 @@
     <nav>
     <ul class="primary-nav clearfix">
        <p class="menutext">Menu</p>
-    	<li class="parent"><a href="#" class="active">Politics</a>
+    	<li class="parent"><a href="#">Politics</a>
 				<ul>
 						<li><a href="#">Republican</a></li>
 						<li><a href="#">Democrat</a></li>
@@ -83,7 +83,7 @@
 				</ul>
 		</li>
 
-   	<li class="parent"><a href="#">Travel</a>
+   	<li class="parent"><a href="#" class="active">Travel</a>
 				<ul>
 						<li><a href="#">5 Star Resorts</a></li>
 						<li><a href="#">Special Deals</a></li>
